@@ -7,7 +7,6 @@ const VideoListItem = ({ video, onVideoSelect }) => {
   const title = video.snippet.title;
   const channelTitle = video.snippet.channelTitle;
 
-  console.log(video);
   return (
     <li onClick={() => onVideoSelect(video)} className="list-group-item">
       <div className="video-list media">
